@@ -1,0 +1,9 @@
+
+{
+  "name": "Rohaan Transcribe",
+  "description": "Professional video transcription in English and Bangla.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
