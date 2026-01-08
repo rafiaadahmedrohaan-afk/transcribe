@@ -90,7 +90,7 @@ const App: React.FC = () => {
           {/* Restricted Usage Badge */}
           <div className="hidden sm:flex items-center space-x-2 bg-emerald-50 px-4 py-2 rounded-full border border-emerald-200">
             <span className="w-2 h-2 bg-amber-400 rounded-full animate-pulse"></span>
-            <span className="text-xs font-black text-emerald-900 uppercase tracking-widest whitespace-nowrap">
+            <span className="text-xs font-black text-emerald-900 uppercase tracking-widest whitespace-nowrap text-[10px] md:text-xs">
               BONOBHUMI USAGE ONLY
             </span>
           </div>
@@ -142,15 +142,15 @@ const App: React.FC = () => {
               </h3>
               <ul className="space-y-3 text-emerald-50 relative z-10">
                 <li className="flex items-start space-x-3">
-                  <span className="bg-emerald-800 text-amber-400 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mt-0.5 border border-amber-400/20">1</span>
-                  <span>Upload a video clip (up to 50MB).</span>
+                  <span className="bg-emerald-800 text-amber-400 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mt-0.5 border border-amber-400/20 shrink-0">1</span>
+                  <span>Upload a video clip (up to 15MB).</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <span className="bg-emerald-800 text-amber-400 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mt-0.5 border border-amber-400/20">2</span>
+                  <span className="bg-emerald-800 text-amber-400 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mt-0.5 border border-amber-400/20 shrink-0">2</span>
                   <span>AI analyzes the audio and context.</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <span className="bg-emerald-800 text-amber-400 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mt-0.5 border border-amber-400/20">3</span>
+                  <span className="bg-emerald-800 text-amber-400 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mt-0.5 border border-amber-400/20 shrink-0">3</span>
                   <span>View transcripts in English and Bangla.</span>
                 </li>
               </ul>
